@@ -1,0 +1,98 @@
+body{
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'open Sans', sans-serif;
+
+
+}
+
+
+.main {
+    height: 100%;
+    padding: 2em;
+    margin: 0;
+    text-align: center;
+    box-shadow: 10px 10px 30px black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    display: flex;
+    color: #fff;
+    padding: 10px 0;
+
+}
+
+.form-control label{
+    cursor: pointer;
+    margin-right: 135px;
+    font-size: 15px;
+}
+
+.header{
+    position: relative;
+}
+
+.header input{
+    border: none;
+    outline: none;
+    background: #e6e4e42b;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    width: 300px;
+    font-size: 16px;
+} 
+
+.header button,
+.form-control input[type=number]{
+    padding: 3px 5px;
+
+    outline: none;
+    border: none;
+    border-radius: 3px 0 0 0;
+}
+
+
+.header button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#submit{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    background-color: #ea2c62;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    color: white;
+    transition: all .3s;
+    border-radius: 5px;
+
+}
+
+#submit:hover{
+    background-color: #3282b8;
+}
